@@ -122,6 +122,36 @@ chmod 755 backups/
 - Check credentials in `.env`
 - Ensure database port is correct (MySQL: 3306, PostgreSQL: 5432, SQL Server: 1433)
 
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+### Reporting Issues
+Found a bug or have a feature request? [Open an issue](https://github.com/marvents/node-sql-backup/issues)
+
+### Pull Requests
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+### Development Setup
+```bash
+git clone https://github.com/marvents/node-sql-backup.git
+cd node-sql-backup
+pnpm install
+pnpm dev
+```
+
+## Support
+
+Need help? Found a critical issue?
+
+📧 **Email**: [itsmarven@proton.me](mailto:itsmarven@proton.me)
+
+For general questions, please use [GitHub Discussions](https://github.com/marvents/node-sql-backup/discussions)
+
 ## License
 
 MIT
