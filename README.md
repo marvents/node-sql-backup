@@ -9,7 +9,7 @@ git clone https://github.com/marvents/node-sql-backup.git
 cd node-sql-backup
 pnpm install
 cp .env.example .env
-# Edit .env with your database credentials
+nano .env  # Edit with your database credentials
 pnpm start
 ```
 
@@ -17,7 +17,6 @@ pnpm start
 
 - Node.js 18+
 - pnpm
-- Database client tools (`mysqldump`, `pg_dump`, or `sqlcmd`) must be installed and in PATH
 
 ## Configuration
 
@@ -121,7 +120,7 @@ chmod 755 backups/
 **Connection refused?**
 - Verify database is running
 - Check credentials in `.env`
-- Test connection manually with database client
+- Ensure database port is correct (MySQL: 3306, PostgreSQL: 5432, SQL Server: 1433)
 
 ## License
 
