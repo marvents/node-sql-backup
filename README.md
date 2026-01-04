@@ -113,11 +113,6 @@ pm2 logs db-backup --lines 50    # PM2 logs
 
 ## Troubleshooting
 
-**Database tool not found?**
-- MySQL: Install `mysql-client`
-- PostgreSQL: Install `postgresql-client`
-- SQL Server: Install `mssql-tools`
-
 **Permission denied?**
 ```bash
 chmod 755 backups/
